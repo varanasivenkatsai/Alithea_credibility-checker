@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %} Credibility check {%endblock%}
+
+{% block content %}
+<form action="#" method="post">
+    <p>Article:{{user_input}}</p>
+    <p>Credibilit score:{{user_score}}</p>
+    <p>Related Articles</p>
+    {% for item in user_art %}
+        <p>{{item}}</p>
+    {% endfor %}
+
+    <p>{{file_name}}</p>
+</form>
+{% endblock %}
+

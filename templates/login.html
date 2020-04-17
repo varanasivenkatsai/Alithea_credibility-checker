@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %} Credibility check {%endblock%}
+
+{% block content %}
+<form action="#" method="post">
+    <p>Article:</p>
+    
+    <p><input type="text" name="ar" style="height:200px;font-size:14pt;"></p>
+    <p><input type="submit" name="submit"></p>
+    <p style="color:Tomato;">Or</p>
+    <label for="myfile">Select a file:</label>
+    <input type="file" accept=".txt,.jpg,.wav" id="myfile" name="myfile">
+</form>
+{% endblock %}
+
