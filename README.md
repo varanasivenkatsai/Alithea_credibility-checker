@@ -5,8 +5,9 @@
 
 
 ## app.py
-Connects two different functionalities.
+Connects three different functionalities.
 A web framework: we used  python flask to host web pages in the local server. HTML files for this webpage are stored in template folder
+Text extractor: for converting image/audio/text file into a article text string.
 Trained machine learning: Helper functions for the trained ML model and article scarpper were stored in nlp.py. 
 
 ## nlp.py Alithea_model_training.py
@@ -16,6 +17,9 @@ preprocessing: data is cleaned to deal with special characters, numbers, english
 Training: Long Short Term Memory Neural Network is used.
 
 Tweet Scapper https://github.com/benbroks/TweetScraper is used for extracting relevant tweets for the given article
+
+## img_audio.py
+This program contains logic to extract article text from Image/Audio data. We used Tesseract, google audio API for extracting the text.
 
 ## Example
 ![Main Img](Examples/Main_page.png "Title")
