@@ -22,7 +22,27 @@ Tweet Scapper https://github.com/benbroks/TweetScraper is used for extracting re
 This program contains logic to extract article text from Image/Audio data. We used Tesseract, google audio API for extracting the text.
 
 ## Example
-![Main Img](Examples/Main_page.PNG "Title")
+
+### main page
+The mainpage of our application looks like this.
+![Main Img](Examples/Main_page.PNG " Main page ")
+we can either write the article in the text field of upload article in .txt/.jpg/.wav file formats.
+
+### credible source
+credible source is present in Examples/Text_credible.txt
+The output for the given article is shown below
+![cred](Examples/Text_credible_output.PNG " Credible_output ")
+
+### fake source
+An image from a fake article 
+![fake Img](Examples/Image_fake.jpg " Fake article ")
+
+This is the output of the fake article
+![fake Img_o](Examples/Image_fake_output.PNG " Fake article output ")
+
+
+
+
 
 
 
