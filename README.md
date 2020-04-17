@@ -1,7 +1,7 @@
 # Alithea_credibility-checker
 
 
-### A web application to perform credibility check on any article. LSTM machine laerning model is trained using data from FakeNewsCorpus to generate credibility score for text articles, and to obtain relevant tweets from credible sources.
+### A web application to perform credibility check on any article. LSTM machine laerning model is trained using data from FakeNewsCorpus to generate credibility score for text articles, and to obtain relevant tweets from credible sources. Google audio and Google Tesseract were used to extract text from image and audio source.
 
 
 ## app.py
