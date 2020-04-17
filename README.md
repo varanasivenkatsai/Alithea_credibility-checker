@@ -22,7 +22,7 @@ Tweet Scapper https://github.com/benbroks/TweetScraper is used for extracting re
 This program contains logic to extract article text from Image/Audio data. We used Tesseract, google audio API for extracting the text.
 
 ## Example
-![Main Img](Examples/Main_page.png "Title")
+![Main Img](Examples/Main_page.PNG "Title")
 
 
 
